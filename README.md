@@ -12,7 +12,7 @@ npm install
 npm run build
 ```
 
-3. Start the --watch flag to automize the css compiling while saving the file 
+3. Start automizing the css compiling while saving the html-file 
 ```
 npm run watch
 ```
