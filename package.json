@@ -11,9 +11,9 @@
     "watch": "^1.0.2"
   },
   "scripts": {
-    "build": "postcss ./src/styles.css -o ./public/styles.css",
-    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/styles.css",
-    "watch": "watch 'npm run build' ./layout"
+    "build": "postcss ./src/styles.css -o ./dist/styles.css",
+    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./dist/styles.css",
+    "watch": "watch 'npm run build' ./dist"
   },
   "author": "",
   "license": "ISC",

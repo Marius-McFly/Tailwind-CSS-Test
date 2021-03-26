@@ -9,7 +9,7 @@ module.exports = {
       ? cssnano({ preset: 'default' })
       : null,
     purgecss({
-      content: ['./layout/**/*.html'],
+      content: ['./dist/**/*.html'],
       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
     })
   ]
